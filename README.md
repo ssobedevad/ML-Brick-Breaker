@@ -14,6 +14,8 @@ Reward clearing all bricks
 
 Penalise giving a movement command (to reduce shakiness)
 
-Overall the agent went from scoring an average of ~0.05 bricks per attempt to ~40 after training.
+Overall the agent went from scoring an average of ~0.05 bricks per attempt to ~40 after training out of a total of 64.
 
 I used random start position and velocity on the ball to promote adaptability
+
+The ball speeds up after not being hit by a small amount and resets when hit by the paddle
